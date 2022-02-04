@@ -1,0 +1,346 @@
+body {
+  background-color: #f2f2f2;
+}
+.logo {
+  position: absolute;
+  left: 5%;
+  right: 97.18%;
+  top: calc(5% - 14px / 2);
+  bottom: 18.37%;
+  width: 70px;
+  height: 70px;
+}
+.home {
+  position: absolute;
+  height: 14px;
+  left: 62.19%;
+  right: 23.94%;
+  top: calc(5% - 14px / 2);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #5fb4a2;
+}
+.portfolio {
+  position: absolute;
+  height: 14px;
+  left: 70%;
+  right: 12.69%;
+  top: calc(5% - 14px / 2);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #33323d;
+}
+.contact {
+  position: absolute;
+  height: 14px;
+  left: 81.18%;
+  right: 0.27%;
+  top: calc(5% - 14px / 2);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #33323d;
+}
+.infotext {
+  /* position: absolute; */
+  width: 390px;
+  height: 200px;
+  /* margin-left: 165px; */
+  margin-right: 885px;
+  /* left: 0%; */
+  /* right: 10.36%; */
+  top: calc(50% - 200px / 2 - 22.5px);
+  font-family: "Ibarra Real Nova", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  /* or 100% */
+  letter-spacing: -0.446429px;
+  color: #33323d;
+  mix-blend-mode: "pass through";
+}
+.info {
+  position: absolute;
+  /* left: 0%;
+    right: 10.36%; */
+  top: calc(50% - 200px / 2 - 22.5px);
+  bottom: 0%;
+  background: #fafafa;
+  margin-left: 115px;
+  margin-right: 830px;
+  width: 400px;
+  height: 350px;
+  background-blend-mode: "pass through";
+}
+.rectangle {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: calc(121% - 200px / 2 - 22.5px);
+  bottom: 0%;
+  background: #203a4c;
+  width: 200px;
+  height: 48px;
+}
+.square {
+  position: absolute;
+  left: 0%;
+  right: 76%;
+  top: 0%;
+  bottom: 0%;
+  background: #000000;
+  mix-blend-mode: normal;
+  opacity: 10%;
+  width: 48px;
+  height: 48px;
+}
+.about-me {
+  position: absolute;
+  width: 152px;
+  height: 14px;
+  left: 24%;
+  right: 0%;
+  top: calc(20% - 14px / 2);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.path1 {
+  position: absolute;
+  left: 8%;
+  right: 84%;
+  top: 37.5%;
+  bottom: 54.17%;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  border: 2px solid #5fb4a2;
+  width: 32px;
+  height: 8px;
+}
+.path2 {
+  position: absolute;
+  left: 8%;
+  right: 84%;
+  top: 45.83%;
+  bottom: 45.83%;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  border: 2px solid #5fb4a2;
+}
+.path3 {
+  position: absolute;
+  left: 8%;
+  right: 84%;
+  top: 54.17%;
+  bottom: 37.5%;
+  border: 2px solid #5fb4a2;
+}
+.pic {
+  position: absolute;
+  width: 500px;
+  height: 460px;
+  margin-left: 125px;
+  margin-top: 50px;
+}
+.pic-frame {
+  position: absolute;
+  width: 812px;
+  height: 576px;
+  left: -12px;
+  top: 666px;
+}
+.top-bottom {
+  position: absolute;
+  border-top: 1px solid #33323d;
+  border-bottom: 1px solid #33323d;
+  width: 350px;
+  height: 460px;
+  left: 730px;
+  top: 715px;
+  mix-blend-mode: normal;
+  /* opacity: 0.15; */
+}
+.box-head {
+  position: absolute;
+  height: 42px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 42px / 2 - 230px);
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  /* identical to box height, or 105% */
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+.box-text {
+  position: absolute;
+  height: 320px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 360px / 2 - 1px);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  /* or 187% */
+  color: black;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.box-button {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 85%;
+  bottom: 0%;
+  border: 1px solid #33323d;
+  box-sizing: border-box;
+  width: 202px;
+  height: 48px;
+}
+/* .lower-home {
+    position: absolute;
+    left: 0%;
+    right: 68.47%;
+    top: 1200px;
+    width: 100%;
+  } */
+.lower-home-text {
+  position: absolute;
+  height: 80px;
+  left: 105px;
+  right: 68.47%;
+  top: 1300px;
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 42px;
+  /* or 105% */
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+.lower-home-hr {
+  position: absolute;
+  border: 1px solid #33323d;
+  width: 500px;
+  left: 32.41%;
+  right: 17.48%;
+  top: 1380px;
+  bottom: 41.67%;
+  mix-blend-mode: normal;
+  opacity: 0.15;
+}
+.lower-home-button {
+  position: absolute;
+  left: 75%;
+  right: 0%;
+  top: 1350px;
+  bottom: 0%;
+  border: 1px solid #33323d;
+  width: 202px;
+  height: 48px;
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  left: 0px;
+  top: 1550px;
+  background: #33323d;
+}
+.logo-foot {
+  position: absolute;
+  left: 10%;
+  right: 97.18%;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+}
+.home-foot {
+  position: absolute;
+  height: 14px;
+  left: 20%;
+  right: 86.08%;
+  top: 20px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.portfolio-foot {
+  position: absolute;
+  height: 14px;
+  left: 30%;
+  right: 86.08%;
+  top: 20px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.contact-foot {
+  position: absolute;
+  height: 14px;
+  left: 43%;
+  right: 86.08%;
+  top: 20px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.github {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 75%;
+  top: 20px;
+}
+.twitter {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 80%;
+  top: 20px;
+}
+.linkedin {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 85%;
+  top: 20px;
+}
