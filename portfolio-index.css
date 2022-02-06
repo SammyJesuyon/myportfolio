@@ -1,0 +1,508 @@
+body {
+  background-color: #f2f2f2;
+}
+.nav-bar {
+  height: 90px;
+  width: 100%;
+}
+.logo {
+  position: absolute;
+  left: 5%;
+  right: 97.18%;
+  top: calc(2% - 14px / 2);
+  bottom: 18.37%;
+  width: 70px;
+  height: 100px;
+}
+.port-home {
+  position: absolute;
+  height: 14px;
+  left: 62.19%;
+  right: 23.94%;
+  top: calc(7% - 14px / 2);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #33323d;
+  border: none;
+  margin-right: 10px;
+}
+.port-home:hover {
+  cursor: pointer;
+}
+.port-portfolio {
+  position: absolute;
+  height: 14px;
+  left: 70%;
+  right: 12.69%;
+  top: calc(7% - 14px / 2);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #5fb4a2;
+  border: none;
+  margin-right: 10px;
+}
+.port-portfolio:hover {
+  cursor: pointer;
+}
+.port-contact {
+  position: absolute;
+  height: 14px;
+  left: 81.18%;
+  right: 0.27%;
+  top: calc(7% - 14px / 2);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #33323d;
+  border: none;
+}
+.port-contact:hover {
+  cursor: pointer;
+}
+.porto1-frame {
+  position: absolute;
+  width: 440px;
+  height: 390px;
+  left: 12%;
+  top: 197px;
+  background: #ffefec;
+}
+.porto1 {
+  position: absolute;
+  width: 430px;
+  height: 380px;
+  left: 1%;
+  top: 2.5%;
+  filter: drop-shadow(0px 2px 46px rgba(243, 96, 60, 0.0962085));
+}
+.manage {
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+  width: 300px;
+  height: 390px;
+  position: absolute;
+  left: 52%;
+  top: 197px;
+  mix-blend-mode: normal;
+}
+.manage-head {
+  position: absolute;
+  height: 42px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 42px / 2 - 125px);
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 42px;
+  /* identical to box height, or 105% */
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+.manage-text {
+  position: absolute;
+  height: 150px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 150px / 2 - 1px);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 30px;
+  /* or 187% */
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.manage-project {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 70%;
+  bottom: 0%;
+  border: 1px solid #33323d;
+  box-sizing: border-box;
+  width: 170px;
+  height: 30px;
+}
+.manage-project:hover {
+  cursor: pointer;
+}
+.bookmark {
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+  width: 300px;
+  height: 390px;
+  position: absolute;
+  left: 18%;
+  top: 700px;
+  mix-blend-mode: normal;
+}
+.bookmark-head {
+  position: absolute;
+  height: 42px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 42px / 2 - 125px);
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 42px;
+  /* identical to box height, or 105% */
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+.bookmark-text {
+  position: absolute;
+  height: 150px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 150px / 2 - 1px);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 30px;
+  /* or 187% */
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.bookmark-project {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 70%;
+  bottom: 0%;
+  border: 1px solid #33323d;
+  box-sizing: border-box;
+  width: 170px;
+  height: 30px;
+}
+.bookmark-project:hover {
+  cursor: pointer;
+}
+.porto2-frame {
+  position: absolute;
+  width: 440px;
+  height: 390px;
+  left: 48%;
+  top: 700px;
+  background: #4f63d8;
+}
+.porto2 {
+  position: absolute;
+  width: 390px;
+  height: 340px;
+  left: 7.5%;
+  top: 12.5%;
+  filter: drop-shadow(20px 20px 0px rgba(0, 0, 0, 0.147563));
+}
+.porto3-frame {
+  position: absolute;
+  width: 440px;
+  height: 390px;
+  left: 12%;
+  top: 197px;
+  left: 12%;
+  top: 1200px;
+  background: #9a99ab;
+}
+.porto3 {
+  position: absolute;
+  width: 390px;
+  height: 350px;
+  left: 6%;
+  top: 10.5%;
+}
+.insure {
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+  width: 300px;
+  height: 390px;
+  position: absolute;
+  left: 52%;
+  top: 1200px;
+  mix-blend-mode: normal;
+}
+.insure-head {
+  position: absolute;
+  height: 42px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 42px / 2 - 125px);
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 42px;
+  /* identical to box height, or 105% */
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+.insure-text {
+  position: absolute;
+  height: 150px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 150px / 2 - 1px);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 30px;
+  /* or 187% */
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.insure-project {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 70%;
+  bottom: 0%;
+  border: 1px solid #33323d;
+  box-sizing: border-box;
+  width: 170px;
+  height: 30px;
+}
+.insure-project:hover {
+  cursor: pointer;
+}
+.fylo {
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+  width: 300px;
+  height: 390px;
+  position: absolute;
+  left: 18%;
+  top: 1700px;
+  mix-blend-mode: normal;
+}
+.fylo-head {
+  position: absolute;
+  height: 42px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 42px / 2 - 125px);
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 42px;
+  /* identical to box height, or 105% */
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+.fylo-text {
+  position: absolute;
+  height: 150px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 150px / 2 - 1px);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 30px;
+  /* or 187% */
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.fylo-project {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 70%;
+  bottom: 0%;
+  border: 1px solid #33323d;
+  box-sizing: border-box;
+  width: 170px;
+  height: 30px;
+}
+.fylo-project:hover {
+  cursor: pointer;
+}
+.porto4-frame {
+  position: absolute;
+  width: 440px;
+  height: 390px;
+  left: 48%;
+  top: 1700px;
+  background: #41b4d3;
+}
+.porto4 {
+  position: absolute;
+  width: 390px;
+  height: 340px;
+  left: 6%;
+  top: 12.5%;
+}
+.port-lower-home {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  width: 100%;
+}
+.port-lower-home-text {
+  position: absolute;
+  height: 80px;
+  left: 105px;
+  right: 68.47%;
+  top: 2150px;
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 42px;
+  /* or 105% */
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+.port-lower-home-hr {
+  position: absolute;
+  border: 1px solid #33323d;
+  width: 500px;
+  left: 32.41%;
+  right: 17.48%;
+  top: 2230px;
+  bottom: 41.67%;
+  mix-blend-mode: normal;
+  opacity: 0.15;
+}
+.port-lower-home-button {
+  position: absolute;
+  left: 75%;
+  right: 0%;
+  top: 2210px;
+  bottom: 0%;
+  border: 1px solid #33323d;
+  width: 202px;
+  height: 48px;
+}
+.port-lower-home-button:hover {
+  cursor: pointer;
+}
+.port-footer {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  left: 0px;
+  top: 2400px;
+  background: #33323d;
+}
+.port-logo-foot {
+  position: absolute;
+  left: 10%;
+  right: 97.18%;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+}
+.port-home-foot {
+  position: absolute;
+  height: 14px;
+  left: 20%;
+  right: 86.08%;
+  top: 30px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  border: none;
+  margin-right: 10px;
+  background: #33323d;
+}
+.port-home-foot:hover {
+  cursor: pointer;
+}
+.port-portfolio-foot {
+  position: absolute;
+  height: 14px;
+  left: 30%;
+  right: 86.08%;
+  top: 30px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #5fb4a2;
+  margin-left: 5px;
+  border: none;
+  background: #33323d;
+}
+.port-portfolio-foot:hover {
+  cursor: pointer;
+}
+.port-contact-foot {
+  position: absolute;
+  height: 14px;
+  left: 43%;
+  right: 86.08%;
+  top: 30px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin-left: 5px;
+  border: none;
+  background: #33323d;
+}
+.port-contact-foot:hover {
+  cursor: pointer;
+}
+.github {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 75%;
+  top: 20px;
+}
+.github:hover {
+  cursor: pointer;
+}
+.twitter {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 80%;
+  top: 20px;
+}
+.twitter:hover {
+  cursor: pointer;
+}
+.linkedin {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 85%;
+  top: 20px;
+}
+.linkedin:hover {
+  cursor: pointer;
+}

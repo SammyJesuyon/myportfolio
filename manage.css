@@ -1,0 +1,535 @@
+body {
+  background-color: #f2f2f2;
+}
+.nav-bar {
+  height: 90px;
+  width: 100%;
+}
+.logo {
+  position: absolute;
+  left: 5%;
+  right: 97.18%;
+  top: calc(2% - 14px / 2);
+  bottom: 18.37%;
+  width: 70px;
+  height: 100px;
+}
+.port1-home {
+  position: absolute;
+  height: 14px;
+  left: 62.19%;
+  right: 23.94%;
+  top: calc(7% - 14px / 2);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #33323d;
+  border: none;
+  margin-right: 10px;
+}
+.port1-home:hover {
+  cursor: pointer;
+}
+.port1-portfolio {
+  position: absolute;
+  height: 14px;
+  left: 70%;
+  right: 12.69%;
+  top: calc(7% - 14px / 2);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #5fb4a2;
+  border: none;
+  margin-right: 10px;
+}
+.port1-portfolio:hover {
+  cursor: pointer;
+}
+.port1-contact {
+  position: absolute;
+  height: 14px;
+  left: 81.18%;
+  right: 0.27%;
+  top: calc(7% - 14px / 2);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #33323d;
+  border: none;
+}
+.port1-contact:hover {
+  cursor: pointer;
+}
+.manage-image-container {
+  position: relative;
+  width: 80%;
+  height: 400px;
+  left: 10%;
+  top: 100px;
+  background: #ffefec;
+}
+.manage-image1 {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  left: 5%;
+  top: 0.5%;
+  filter: drop-shadow(0px 2px 46px rgba(243, 96, 60, 0.0962085));
+  z-index: 2;
+}
+.manage-image2 {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  left: 45%;
+  top: -0%;
+  filter: drop-shadow(0px 2px 46px rgba(243, 96, 60, 0.0962085));
+  z-index: 1;
+}
+.page2-manage {
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+  width: 300px;
+  height: 390px;
+  position: absolute;
+  left: 10%;
+  top: 700px;
+  mix-blend-mode: normal;
+}
+.page2-manage-head {
+  position: absolute;
+  height: 42px;
+  left: 0%;
+  right: 0%;
+  top: calc(35% - 42px / 2 - 125px);
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 42px;
+  /* identical to box height, or 105% */
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+.page2-manage-text {
+  position: absolute;
+  height: 150px;
+  left: 0%;
+  right: 0%;
+  top: calc(35% - 150px / 2 - 1px);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 30px;
+  /* or 187% */
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.page2-manage-button {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 80%;
+  bottom: 0%;
+  border: 1px solid #33323d;
+  box-sizing: border-box;
+  width: 170px;
+  height: 30px;
+}
+.page2-manage-button:hover {
+  cursor: pointer;
+}
+.ot1 {
+  position: absolute;
+  height: 150px;
+  left: 0%;
+  right: 0%;
+  top: calc(70% - 150px / 2 - 1px);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 30px;
+  /* or 187% */
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  color: #5fb4a2;
+}
+.ot2 {
+  position: absolute;
+  height: 150px;
+  left: 0%;
+  right: 0%;
+  top: calc(80% - 150px / 2 - 1px);
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 30px;
+  /* or 187% */
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  color: #5fb4a2;
+}
+.page2-column2 {
+  position: absolute;
+  left: 45%;
+  width: 550px;
+  top: 660px;
+  mix-blend-mode: normal;
+}
+.page2-project-header {
+  position: absolute;
+  left: 0%;
+  top: 2px;
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 42px;
+  /* identical to box height, or 131% */
+  letter-spacing: -0.285714px;
+  color: #33323d;
+}
+.page2-project-text {
+  position: absolute;
+  left: 0%;
+  top: 80px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  /* or 200% */
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.page2-static {
+  position: absolute;
+  height: 42px;
+  left: 0%;
+  top: 250px;
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 42px;
+  /* identical to box height, or 131% */
+  letter-spacing: -0.285714px;
+  color: #33323d;
+}
+.page2-porto1-frame {
+  position: absolute;
+  width: 440px;
+  height: 300px;
+  left: 0%;
+  top: 350px;
+  background: #ffefec;
+}
+.page2-porto1 {
+  position: absolute;
+  width: 430px;
+  height: 300px;
+  left: 1%;
+  top: 0.2%;
+  filter: drop-shadow(0px 2px 46px rgba(243, 96, 60, 0.0962085));
+}
+.page2-static-frame {
+  position: absolute;
+  width: 440px;
+  height: 300px;
+  left: 0%;
+  top: 680px;
+  background: #ffefec;
+}
+.page2-static-image1 {
+  position: absolute;
+  width: 220px;
+  height: 300px;
+  left: -1%;
+  top: -1%;
+  z-index: 2;
+}
+.page2-static-image2 {
+  position: absolute;
+  width: 220px;
+  height: 300px;
+  left: 100px;
+  top: 0%;
+  z-index: 1;
+}
+.page2-static-image3 {
+  position: absolute;
+  width: 220px;
+  height: 300px;
+  left: 220px;
+  top: 0%;
+  z-index: 0;
+}
+.horizontal1 {
+  position: relative;
+  width: 80%;
+  height: 1px;
+  color: #33323d;
+  top: 1200px;
+}
+.previous {
+  position: absolute;
+  width: 8px;
+  height: 16px;
+  left: 10%;
+  top: 1750px;
+}
+.previous:hover {
+  cursor: pointer;
+}
+.fylo {
+  position: absolute;
+  top: 1700px;
+  left: 12%;
+  position: absolute;
+  height: 36px;
+  right: 51.64%;
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+  letter-spacing: -0.285714px;
+  color: #33323d;
+}
+.previous-page {
+  position: absolute;
+  height: 30px;
+  left: 12%;
+  right: 0.82%;
+  top: 1750px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.vertical {
+  position: relative;
+  left: 50%;
+  top: 1190px;
+  height: 100px;
+}
+.bookmark {
+  position: absolute;
+  top: 1700px;
+  position: absolute;
+  height: 36px;
+  right: 12%;
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+  letter-spacing: -0.285714px;
+  color: #33323d;
+}
+.next-page {
+  position: absolute;
+  height: 30px;
+  right: 12%;
+  top: 1750px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.next {
+  position: absolute;
+  width: 8px;
+  height: 16px;
+  right: 10%;
+  top: 1750px;
+}
+.next:hover {
+  cursor: pointer;
+}
+.horizontal2 {
+  position: relative;
+  width: 80%;
+  height: 1px;
+  color: #33323d;
+  top: 1180px;
+}
+.lower {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+  width: 100%;
+}
+.lower-text {
+  position: absolute;
+  height: 80px;
+  left: 105px;
+  right: 68.47%;
+  top: 1850px;
+  font-family: Ibarra Real Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 42px;
+  /* or 105% */
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+.lower-hr {
+  position: absolute;
+  border: 1px solid #33323d;
+  width: 500px;
+  left: 32.41%;
+  right: 17.48%;
+  top: 1930px;
+  bottom: 41.67%;
+  mix-blend-mode: normal;
+  opacity: 0.15;
+}
+.lower-button {
+  position: absolute;
+  left: 75%;
+  right: 0%;
+  top: 1900px;
+  bottom: 0%;
+  border: 1px solid #33323d;
+  width: 202px;
+  height: 48px;
+}
+.lower-button:hover {
+  cursor: pointer;
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  left: 0px;
+  top: 2050px;
+  background: #33323d;
+}
+.logo-foot {
+  position: absolute;
+  left: 10%;
+  right: 97.18%;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+}
+.home-foot {
+  position: absolute;
+  height: 14px;
+  left: 20%;
+  right: 86.08%;
+  top: 30px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  border: none;
+  margin-right: 10px;
+  background: #33323d;
+}
+.home-foot:hover {
+  cursor: pointer;
+}
+.portfolio-foot {
+  position: absolute;
+  height: 14px;
+  left: 30%;
+  right: 86.08%;
+  top: 30px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #5fb4a2;
+  margin-left: 5px;
+  border: none;
+  background: #33323d;
+}
+.portfolio-foot:hover {
+  cursor: pointer;
+}
+.contact-foot {
+  position: absolute;
+  height: 14px;
+  left: 43%;
+  right: 86.08%;
+  top: 30px;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin-left: 5px;
+  border: none;
+  background: #33323d;
+}
+.contact-foot:hover {
+  cursor: pointer;
+}
+.github {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 75%;
+  top: 20px;
+}
+.github:hover {
+  cursor: pointer;
+}
+.twitter {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 80%;
+  top: 20px;
+}
+.twitter:hover {
+  cursor: pointer;
+}
+.linkedin {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 85%;
+  top: 20px;
+}
+.linkedin:hover {
+  cursor: pointer;
+}

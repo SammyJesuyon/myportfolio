@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>home</title>
     <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,14 +15,20 @@
   </head>
   <body>
     <div class="body">
-      <div>
-        <img src="image.png" alt="" class="logo" />
+      <div class="nav-bar">
+        <div>
+          <img src="image.png" alt="" class="logo" />
+        </div>
+        <div class="tab">
+          <a href="index.html"><button class="home">HOME</button></a>
+          <a href="portfolio-index.html"
+            ><button class="portfolio">PORTFOLIO</button></a
+          >
+          <a href="contact-me.html"
+            ><button class="contact">CONTACT ME</button></a
+          >
+        </div>
       </div>
-      <nav class="tab">
-        <p class="home">HOME</p>
-        <p class="portfolio">PORTFOLIO</p>
-        <p class="contact">CONTACT ME</p>
-      </nav>
       <div class="info">
         <p class="infotext">
           Hey, I'm Samson Kitigo and I love building beautiful websites
@@ -45,22 +51,34 @@
           outdoors. I love being out in nature whether that’s going for a walk,
           run or cycling. I’d love you to check out my work.
         </p>
-        <a href="#"><button class="box-button">GO TO PORTFOLIO</button></a>
+        <a href="portfolio-index.html"
+          ><button class="box-button">GO TO PORTFOLIO</button></a
+        >
       </div>
-      <!-- <div class="lower-home"> -->
-      <p class="lower-home-text">Interested in doing a project together?</p>
-      <div class="lower-home-hr"></div>
-      <a href="#"><button class="lower-home-button">CONTACT ME</button></a>
-      <!-- </div> -->
+      <div class="lower-home">
+        <p class="lower-home-text">Interested in doing a project together?</p>
+        <div class="lower-home-hr"></div>
+        <a href="#"><button class="lower-home-button">CONTACT ME</button></a>
+      </div>
     </div>
     <footer class="footer">
       <img src="image.png" alt="" class="logo-foot" />
-      <p class="home-foot">HOME</p>
-      <p class="portfolio-foot">PORTFOLIO</p>
-      <p class="contact-foot">CONTACT</p>
-      <img src="github.png" alt="" class="github" />
-      <img src="twitter.png" alt="" class="twitter" />
-      <img src="linkedin.png" alt="" class="linkedin" />
+      <a href="index.html"><button class="home-foot">HOME</button></a>
+      <a href="portfolio-index.html"
+        ><button class="portfolio-foot">PORTFOLIO</button></a
+      >
+      <a href="contact-me.html"
+        ><button class="contact-foot">CONTACT</button></a
+      >
+      <a href="https://github.com/SammyJesuyon"
+        ><img src="github.png" alt="" class="github"
+      /></a>
+      <a href="https://twitter.com/sammyjesuyon"
+        ><img src="twitter.png" alt="" class="twitter"
+      /></a>
+      <a href="https://www.linkedin.com/in/samson-kitigo-8833b0102/"
+        ><img src="linkedin.png" alt="" class="linkedin"
+      /></a>
     </footer>
   </body>
 </html>

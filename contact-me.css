@@ -14,7 +14,7 @@ body {
   width: 70px;
   height: 100px;
 }
-.home {
+.nav-home {
   position: absolute;
   height: 14px;
   left: 62.19%;
@@ -26,14 +26,14 @@ body {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 2px;
-  color: #5fb4a2;
+  color: #33323d;
   border: none;
   margin-right: 10px;
 }
-.home:hover {
+.nav-home:hover {
   cursor: pointer;
 }
-.portfolio {
+.nav-portfolio {
   position: absolute;
   height: 14px;
   left: 70%;
@@ -49,10 +49,10 @@ body {
   border: none;
   margin-right: 10px;
 }
-.portfolio:hover {
+.nav-portfolio:hover {
   cursor: pointer;
 }
-.contact {
+.nav-contact {
   position: absolute;
   height: 14px;
   left: 81.18%;
@@ -64,234 +64,133 @@ body {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 2px;
-  color: #33323d;
+  color: #5fb4a2;
   border: none;
 }
-.contact:hover {
+.nav-contact:hover {
   cursor: pointer;
 }
-.infotext {
-  /* position: absolute; */
-  width: 390px;
-  height: 200px;
-  /* margin-left: 165px; */
-  margin-right: 885px;
-  /* left: 0%; */
-  /* right: 10.36%; */
-  top: calc(50% - 200px / 2 - 22.5px);
-  font-family: "Ibarra Real Nova", serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 50px;
-  /* or 100% */
-  letter-spacing: -0.446429px;
-  color: #33323d;
-  mix-blend-mode: "pass through";
-}
-.info {
+.first-section {
+  border-top: 0.5px solid silver;
+  border-bottom: 0.5px solid silver;
+  width: 80%;
+  height: 250px;
   position: absolute;
-  /* left: 0%;
-    right: 10.36%; */
-  top: calc(50% - 200px / 2 - 22.5px);
-  bottom: 0%;
-  background: #fafafa;
-  margin-left: 115px;
-  margin-right: 830px;
-  width: 400px;
-  height: 350px;
-  background-blend-mode: "pass through";
+  left: 10%;
+  top: 25%;
 }
-.rectangle {
+.header1 {
   position: absolute;
   left: 0%;
-  right: 0%;
-  top: calc(121% - 200px / 2 - 22.5px);
-  bottom: 0%;
-  background: #203a4c;
-  width: 200px;
-  height: 48px;
-}
-.square {
-  position: absolute;
-  left: 0%;
-  right: 76%;
   top: 0%;
-  bottom: 0%;
-  background: #000000;
-  mix-blend-mode: normal;
-  opacity: 10%;
-  width: 48px;
-  height: 48px;
-}
-.about-me {
-  position: absolute;
-  width: 152px;
-  height: 14px;
-  left: 24%;
-  right: 0%;
-  top: calc(20% - 14px / 2);
-  font-family: Public Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 14px;
-  text-align: center;
-  letter-spacing: 2px;
-  color: #ffffff;
-}
-.path1 {
-  position: absolute;
-  left: 8%;
-  right: 84%;
-  top: 37.5%;
-  bottom: 54.17%;
-  mix-blend-mode: normal;
-  opacity: 0.25;
-  border: 2px solid #5fb4a2;
-  width: 32px;
-  height: 8px;
-}
-.path2 {
-  position: absolute;
-  left: 8%;
-  right: 84%;
-  top: 45.83%;
-  bottom: 45.83%;
-  mix-blend-mode: normal;
-  opacity: 0.5;
-  border: 2px solid #5fb4a2;
-}
-.path3 {
-  position: absolute;
-  left: 8%;
-  right: 84%;
-  top: 54.17%;
-  bottom: 37.5%;
-  border: 2px solid #5fb4a2;
-}
-.pic {
-  position: absolute;
-  width: 500px;
-  height: 460px;
-  margin-left: 125px;
-  margin-top: 50px;
-}
-.pic-frame {
-  position: absolute;
-  width: 812px;
-  height: 576px;
-  left: -12px;
-  top: 666px;
-}
-.top-bottom {
-  position: absolute;
-  border-top: 1px solid #33323d;
-  border-bottom: 1px solid #33323d;
-  width: 350px;
-  height: 460px;
-  left: 730px;
-  top: 715px;
-  mix-blend-mode: normal;
-  /* opacity: 0.15; */
-}
-.box-head {
-  position: absolute;
-  height: 42px;
-  left: 0%;
-  right: 0%;
-  top: calc(50% - 42px / 2 - 230px);
   font-family: Ibarra Real Nova;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 42px;
   /* identical to box height, or 105% */
   letter-spacing: -0.357143px;
   color: #33323d;
 }
-.box-text {
+.text {
   position: absolute;
-  height: 320px;
-  left: 0%;
+  width: 600px;
+  height: 180px;
   right: 0%;
-  top: calc(50% - 360px / 2 - 1px);
+  top: 2%;
+  bottom: 20%;
   font-family: Public Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 30px;
   /* or 187% */
-  color: black;
+  color: #33323d;
   mix-blend-mode: normal;
   opacity: 0.8;
 }
-.box-button {
+.github1 {
   position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 85%;
-  bottom: 0%;
-  border: 1px solid #33323d;
-  box-sizing: border-box;
-  width: 202px;
-  height: 48px;
+  width: 35px;
+  height: 33px;
+  right: 55.5%;
+  top: 81.7%;
 }
-.box-button:hover {
-  cursor: pointer;
-}
-.lower-home {
+.twitter1 {
   position: absolute;
-  left: 0%;
-  right: 68.47%;
-  top: 0px;
-  width: 100%;
+  width: 35px;
+  height: 33px;
+  right: 50.5%;
+  top: 81.7%;
 }
-.lower-home-text {
+.linkedin1 {
   position: absolute;
-  height: 80px;
-  left: 105px;
-  right: 68.47%;
-  top: 1300px;
+  width: 35px;
+  height: 33px;
+  right: 45.5%;
+  top: 81.7%;
+}
+.header2 {
+  position: absolute;
+  left: 10%;
+  top: 60%;
   font-family: Ibarra Real Nova;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 35px;
   line-height: 42px;
-  /* or 105% */
+  /* identical to box height, or 105% */
   letter-spacing: -0.357143px;
   color: #33323d;
 }
-.lower-home-hr {
+label {
+  display: block;
+}
+.input {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 600px;
+  border: none;
+}
+.form {
   position: absolute;
-  border: 1px solid #33323d;
-  width: 500px;
-  left: 32.41%;
-  right: 17.48%;
-  top: 1380px;
-  bottom: 41.67%;
+  top: 65%;
+  left: 42.5%;
+  font-family: Public Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  /* identical to box height, or 231% */
+  color: #33323d;
   mix-blend-mode: normal;
-  opacity: 0.15;
 }
-.lower-home-button {
-  position: absolute;
-  left: 75%;
-  right: 0%;
-  top: 1350px;
-  bottom: 0%;
-  border: 1px solid #33323d;
-  width: 202px;
-  height: 48px;
+.message {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 600px;
+  border: none;
+  height: 60px;
 }
-.lower-home-button:hover {
-  cursor: pointer;
+.submit {
+  background-color: #203a4c;
+  width: 200px;
+  margin-top: 15px;
+  border: none;
+  height: 40px;
+  color: aliceblue;
 }
 .footer {
   position: absolute;
   width: 100%;
   height: 80px;
   left: 0px;
-  top: 1550px;
+  top: 1000px;
+  bottom: 0%;
   background: #33323d;
 }
 .logo-foot {
@@ -314,7 +213,7 @@ body {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 2px;
-  color: #5fb4a2;
+  color: #ffffff;
   border: none;
   margin-right: 10px;
   background: #33323d;
@@ -354,7 +253,7 @@ body {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 2px;
-  color: #ffffff;
+  color: #5fb4a2;
   margin-left: 5px;
   border: none;
   background: #33323d;
